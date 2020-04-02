@@ -39,7 +39,7 @@ $ conda remove -n envname --all (replace envname in your preference)
 
 #### --To remove an environment--
 
-$ conda remove -n your_env_name --all
+$ conda remove -n envname --all
 
 ### Activate/Deactivate the environment
 
