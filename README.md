@@ -61,7 +61,11 @@ $ python -m pip install --upgrade pip
 
 #### ***check pip version*** (*Note please make sure you check the path of the pip, or the packages installed with pip/pip3 might not be installed in the conda environment)
 
-$ which pip
+$ which pip \
 $ which pip3
  
+#### if you want to learn more about anaconda please visit the websites below:
+
+https://www.jianshu.com/p/11f980d912e3 \
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html
 
