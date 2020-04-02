@@ -12,10 +12,25 @@ Since Archiconda3 is tailored for ARM64 computer, ths setup process is different
 
 #### Download the installation script and run it
 $ wget https://github.com/Archiconda/build-tools/releases/download/0.2.3/Archiconda3-0.2.3-Linux-aarch64.sh \
-$ sudo sh Archiconda3-0.2.3-Linux-aarch64.sh \
+$ sudo sh Archiconda3-0.2.3-Linux-aarch64.sh
 
 #### Export the path where archiconda is installed, replace <PATH TO ARCHICONDA3> to wherever it is installed
 $ export PATH=<PATH TO ARCHICONDA3>/bin:$PATH \
 Check the version, if conda is successfully installed, you will see the version info on the terminal.
-$ conda -V \
+$ conda -V
+
+## How To Use
+
+#### --To create an environment--
+
+$ conda create --name myenv
+
+#### --To create an environment with a specific version of Python--
+
+$ conda create -n myenv python=3.6
+
+#### --To delete an environment--
+
+$ conda remove -n your_env_name --all
+
 
