@@ -27,21 +27,21 @@ $ conda -V
 
 #### --To create an environment--
 
-$ conda create --name <envname> (replace envname in your preference)
+$ conda create --name envname (replace envname in your preference)
 
 #### --To create an environment with a specific version of Python--
 
-$ conda create -n <envname> python=3.6 (replace envname in your preference)
+$ conda create -n envname python=3.6 (replace envname in your preference)
  
 #### --To delete an environment--
 
-$ conda remove -n <envname> --all (replace envname in your preference)
+$ conda remove -n envname --all (replace envname in your preference)
 
 ### Activate/Deactivate the environment
 
 #### --To activate the environment--
 
-$ conda activate <envname> (replace envname in your preference)
+$ conda activate envname (replace envname in your preference)
 
 #### --To deactivate the environment--
 
@@ -51,7 +51,7 @@ $ conda deactivate
 
 #### --To install a specific package such as SciPy into an existing environment "myenv"--
 
-$ conda install --name myenv pkgname
+$ conda install --name envname pkgname
 
 #### --If you do not specify the environment name, which in this example is done by --name myenv, the package installs into the current environment--
 
