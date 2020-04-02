@@ -51,6 +51,10 @@ $ conda activate envname (replace envname in your preference)
 
 $ conda deactivate
 
+#### --To prevent conda from activating the base environment by default--
+
+$ conda config --set auto_activate_base false
+
 ### Packages installation within an environment
 
 #### --To install a specific package such as SciPy into an existing environment "myenv"--
