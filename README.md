@@ -16,7 +16,7 @@ $ sudo sh Archiconda3-0.2.3-Linux-aarch64.sh
 
 #### Export the path where archiconda is installed, replace <PATH TO ARCHICONDA3> to wherever it is installed
 $ export PATH=<PATH TO ARCHICONDA3>/bin:$PATH \
-Check the version, if conda is successfully installed, you will see the version info on the terminal.
+#### Check the version, if conda is successfully installed, you will see the version info on the terminal.
 $ conda -V
 
 ## How To Use
