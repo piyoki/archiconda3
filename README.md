@@ -57,11 +57,11 @@ $ conda install --name myenv pkgname
 
 $ conda install pkgname
 
-#### ***upgrade pip***
+#### --Upgrade pip--
 
 $ python -m pip install --upgrade pip
 
-#### check pip version (Note please make sure you check the path of the pip, or the packages installed with pip/pip3 might not be installed in the conda environment)
+#### --Check pip version (Note please make sure you check the path of the pip, or the packages installed with pip/pip3 might not be installed in the conda environment)--
 
 $ which pip \
 $ which pip3
