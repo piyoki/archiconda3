@@ -69,5 +69,6 @@ $ which pip3
 #### If you want to learn more about anaconda please visit the websites below:
 
 https://www.jianshu.com/p/11f980d912e3 \
-https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html \
+https://blog.csdn.net/weixin_42401701/article/details/80820778
 
