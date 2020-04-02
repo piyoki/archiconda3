@@ -8,5 +8,10 @@ The goal of this repository is develop the groundwork needed to compile conda-fo
 
 ## Setup
 
-Since Archiconda3 is tailored for ARM64 computer, ths setup process is different from the one with the normal Anaconda. To start off, please follow the setup instructions below:
+Since Archiconda3 is tailored for ARM64 computer, ths setup process is different from the one with the normal Anaconda. To start off, please follow the setup instructions below: \
+ \
+$ wget https://github.com/Archiconda/build-tools/releases/download/0.2.3/Archiconda3-0.2.3-Linux-aarch64.sh \
+$ sudo sh Archiconda3-0.2.3-Linux-aarch64.sh \
+$ export PATH=~/archiconda3/bin:$PATH \
+$ conda -V \
 
