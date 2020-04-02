@@ -37,6 +37,10 @@ $ conda create -n envname python=3.6 (replace envname in your preference)
 
 $ conda remove -n envname --all (replace envname in your preference)
 
+#### --To remove an environment--
+
+$ conda remove -n your_env_name --all
+
 ### Activate/Deactivate the environment
 
 #### --To activate the environment--
