@@ -8,14 +8,14 @@ The goal of this repository is develop the groundwork needed to compile conda-fo
 
 ## Setup
 
-Since Archiconda3 is tailored for ARM64 computer, ths setup process is different from the one with the normal Anaconda. To start off, please follow the setup instructions below:
+Since Archiconda3 is tailored for ARM64 computer (Raspberry Pi, Jetson Devices), ths setup process is different from the one with the normal Anaconda. To start off, please follow the setup instructions below:
 
 #### Download the installation script and run it
 $ wget https://github.com/Archiconda/build-tools/releases/download/0.2.3/Archiconda3-0.2.3-Linux-aarch64.sh \
 $ sudo sh Archiconda3-0.2.3-Linux-aarch64.sh
 
 #### Export the path where archiconda is installed, replace <PATH TO ARCHICONDA3> to wherever it is installed
-$ export PATH=<<PATH TO ARCHICONDA3>>/bin:$PATH \
+$ export PATH=<PATH \TO \ARCHICONDA3>/bin:$PATH \
 ig:  export PATH=~/archiconda3/bin:$PATH
 
 #### Check the version, if conda is successfully installed, you will see the version info on the terminal.
