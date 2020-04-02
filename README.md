@@ -8,6 +8,5 @@ The goal of this repository is develop the groundwork needed to compile conda-fo
 
 ## Setup
 
-Since Archiconda3 is tailored for ARM64 computer, ths setup process is different from the one with the normal Anaconda. To start off, please follow the setup instructions below
- \
+Since Archiconda3 is tailored for ARM64 computer, ths setup process is different from the one with the normal Anaconda. To start off, please follow the setup instructions below:
 
