@@ -21,6 +21,8 @@ $ conda -V
 
 ## How To Use
 
+### Create/Delete an environment
+
 #### --To create an environment--
 
 $ conda create --name myenv
