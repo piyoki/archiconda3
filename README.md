@@ -82,12 +82,16 @@ $ which pip3
 
 $ sudo chown -R username <PATH\TO>/archiconda \
 $ conda install -c anaconda ipykernel \
+$ pip3 install --upgrade --force jupyter-console \
  \
 **Adding an env to jupyter** \
 $ ipykernel install --user --name=envname (replace envname in your preference) \
  \
 **Removing an env from jupyter** \
 $ jupyter kernelspec uninstall envname (replace envname in your preference)
+
+**listing the existing environments** \
+$ jupyter kernelspec list
 
 **References*** \
 https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084 \
