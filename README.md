@@ -73,6 +73,18 @@ $ python -m pip install --upgrade pip
 
 $ which pip \
 $ which pip3
+
+### --run jupyternote book insde the virtualenv--
+
+$ sudo chown -R username <PATH\TO>/archiconda \
+$ conda install -c anaconda ipykernel \
+\ 
+Follow the instruction in link below:
+https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084
+
+### --grant the current user permission--
+
+$ sudo chown -R username <PATH\TO>/archiconda
  
 #### If you want to learn more about anaconda please visit the websites below:
 
