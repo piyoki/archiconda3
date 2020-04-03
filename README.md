@@ -82,9 +82,14 @@ $ which pip3
 
 $ sudo chown -R username <PATH\TO>/archiconda \
 $ conda install -c anaconda ipykernel \
-$ python -m ipykernel install --user --name=envname (replace envname in your preference)
+ \
+**adding an env to jupyter** \
+$ ipykernel install --user --name=envname (replace envname in your preference)
 Follow the instruction in link below: \
-https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084
+https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084 \
+ \
+**removing an env from jupyter** \
+$ jupyter kernelspec uninstall envname (replace envname in your preference)
 
 ### --Run jupyter lab remotely from your client machine---
 
