@@ -14,7 +14,7 @@ Since Archiconda3 is tailored for ARM64 computer (Raspberry Pi, Jetson Devices),
 $ wget https://github.com/Archiconda/build-tools/releases/download/0.2.3/Archiconda3-0.2.3-Linux-aarch64.sh \
 $ sudo sh Archiconda3-0.2.3-Linux-aarch64.sh
 
-#### Export the path where archiconda is installed, replace <PATH TO ARCHICONDA3> to wherever it is installed
+#### Export the path where archiconda is installed, replace <PATH\TO\ARCHICONDA3> to wherever it is installed
 $ export PATH=<PATH\TO\ARCHICONDA3>/bin:$PATH \
 ig:  export PATH=~/archiconda3/bin:$PATH
 
@@ -40,6 +40,10 @@ $ conda remove -n envname --all (replace envname in your preference)
 #### --To remove an environment--
 
 $ conda remove -n envname --all (replace envname in your preference)
+
+### --grant the current user permission--
+
+$ sudo chown -R username <PATH\TO>/archiconda
 
 ### Activate/Deactivate the environment
 
@@ -78,13 +82,9 @@ $ which pip3
 
 $ sudo chown -R username <PATH\TO>/archiconda \
 $ conda install -c anaconda ipykernel \
-\ 
 Follow the instruction in link below:
 https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084
 
-### --grant the current user permission--
-
-$ sudo chown -R username <PATH\TO>/archiconda
  
 #### If you want to learn more about anaconda please visit the websites below:
 
