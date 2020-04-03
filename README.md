@@ -94,7 +94,7 @@ https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-n
 $ jupyter lab --generate-config \
 $ sudo find / -name jupyter_notebook_config.py #it will display the path of the config file \
 $ vi <PATH\TO\CONFIG>/jupyter_notebook_config.py \
-**you may change the settings in your own preference**
+***you may change the settings in your own preference**
 
  \
 -- In your local client machine type the following commands: \
