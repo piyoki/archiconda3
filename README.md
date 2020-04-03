@@ -103,6 +103,7 @@ $ ssh -L 8000:localhost:PORT username_@server_ip \ #check the port by opening ju
 **note: you may change 8000 to whatever # in your preference** \
 (ig: ssh -L 8000:localhost:9999 kev@10.10.10.65 ) \
 type the adrress with the customized in the web browser localhost:8000 \
+ \
 **first-time login** \
 Copy the token from the server terminal \
 Open a web browse from the client, type localhost:PORT (localhost:8000 as default) \
