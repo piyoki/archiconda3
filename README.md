@@ -90,7 +90,7 @@ $ ipykernel install --user --name=envname (replace envname in your preference) \
 **Removing an env from jupyter** \
 $ jupyter kernelspec uninstall envname (replace envname in your preference)
 
-**listing the existing environments** \
+**Listing the existing environments** \
 $ jupyter kernelspec list
 
 **References*** \
