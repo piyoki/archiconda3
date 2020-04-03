@@ -94,16 +94,16 @@ https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-n
 $ jupyter lab --generate-config \
 $ sudo find / -name jupyter_notebook_config.py #it will display the path of the config file \
 $ vi <PATH\TO\CONFIG>/jupyter_notebook_config.py \
-**you may change the settings in your own preference*
+*you may change the settings in your own preference.*
 
  \
 -- In your local client machine type the following commands: \
 $ rm ~/.ssh/known_hosts \
 $ ssh -L 8000:localhost:PORT username_@server_ip \ #check the port by opening jupter lab, the default is 8888 \
-**note: you may change 8000 to whatever # in your preference**
+**note: you may change 8000 to whatever # in your preference** \
 (ig: ssh -L 8000:localhost:9999 kev@10.10.10.65 ) \
 type the adrress with the customized in the web browser localhost:8000 \
-**first-time login**
+**first-time login** \
 Copy the token from the server terminal \
 Open a web browse from the client, type localhost:PORT (localhost:8000 as default) \
 then it will promot up a windows to ask you to type in the token, just paste the token, and you should be good to go.
