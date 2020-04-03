@@ -86,7 +86,26 @@ $ python -m ipykernel install --user --name=envname (replace envname in your pre
 Follow the instruction in link below: \
 https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084
 
- 
+### --Run jupyter lab remotely from your client machine---
+
+*for instance, you may open jupter notebook/lab from a windows/mac machine a client.* \
+
+-- In the server machine, type the following commands: \
+$ jupyter lab --generate-config \
+$ sudo find / -name jupyter_notebook_config.py #it will display the path of the config file \
+$ vi <PATH\TO\CONFIG>/jupyter_notebook_config.py \
+*you may change the settings in your own preference* \
+
+ \
+-- In your local client machine type the following commands: \
+$ rm ~/.ssh/known_hosts \
+$ ssh -L 8000:localhost:PORT username_@server_ip \ #check the port by opening jupter lab, the default is 8888 \
+*note: you may change 8000 to whatever # in your preference* \
+(ig: ssh -L 8000:localhost:9999 kev@10.10.10.65 )
+type the adrress with the customized in the web browser localhost:8000
+* first-time login
+copy the token from the server terminal 
+
 #### If you want to learn more about anaconda please visit the websites below:
 
 https://www.jianshu.com/p/11f980d912e3 \
