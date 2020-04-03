@@ -84,13 +84,13 @@ $ sudo chown -R username <PATH\TO>/archiconda \
 $ conda install -c anaconda ipykernel \
 $ pip3 install --upgrade --force jupyter-console \
  \
-**Adding an env to jupyter** \
+**Add an env to jupyter** \
 $ ipykernel install --user --name=envname (replace envname in your preference) \
  \
-**Removing an env from jupyter** \
+**Remove an env from jupyter** \
 $ jupyter kernelspec uninstall envname (replace envname in your preference)
 
-**Listing the existing environments** \
+**List the existing environments** \
 $ jupyter kernelspec list
 
 **References*** \
