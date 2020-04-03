@@ -78,7 +78,7 @@ $ python -m pip install --upgrade pip
 $ which pip \
 $ which pip3
 
-### --run jupyternote book insde the virtualenv--
+### --Run jupyter notebook/lab inside the conda virtualenv--
 
 $ sudo chown -R username <PATH\TO>/archiconda \
 $ conda install -c anaconda ipykernel \
