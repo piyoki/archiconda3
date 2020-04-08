@@ -81,6 +81,7 @@ $ which pip3
 ### --Run jupyter notebook/lab inside the conda virtualenv--
 
 $ sudo chown -R username <PATH\TO>/archiconda \
+$ conda install -c conda-forge jupyterlab \
 $ conda install -c anaconda ipykernel \
 $ pip3 install --upgrade --force jupyter-console \
  \
