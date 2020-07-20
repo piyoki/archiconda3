@@ -23,7 +23,9 @@ $ export PATH=<PATH\TO\ARCHICONDA3>/bin:$PATH
 ```
 
 #### Check the version, if conda is successfully installed, you will see the version info on the terminal.
+```bash
 $ conda -V
+```
 
 ### To update to the latest version
 ```bash
@@ -99,11 +101,13 @@ $ which pip3
 
 ### --Run jupyter notebook/lab inside the conda virtualenv--
 
-$ sudo chown -R username <PATH\TO>/archiconda \
-$ conda install -c conda-forge jupyterlab \
-$ conda install -c anaconda ipykernel \
-$ pip3 install --upgrade --force jupyter-console \
- \
+```bash
+$ sudo chown -R username <PATH\TO>/archiconda
+$ conda install -c conda-forge jupyterlab
+$ conda install -c anaconda ipykernel
+$ pip3 install --upgrade --force jupyter-console
+```
+
 **Add an env to jupyter** \
 $ ipykernel install --user --name=envname (replace envname in your preference) \
  \
