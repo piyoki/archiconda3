@@ -12,7 +12,7 @@ Since Archiconda3 is tailored for ARM64 computer (Raspberry Pi, Jetson Devices),
 
 #### Download the installation script and run it
 ```bash
-$ wget https://github.com/Archiconda/build-tools/releases/download/0.2.3/Archiconda3-0.2.3-Linux-aarch64.sh \
+$ wget https://github.com/Archiconda/build-tools/releases/download/0.2.3/Archiconda3-0.2.3-Linux-aarch64.sh
 $ sudo sh Archiconda3-0.2.3-Linux-aarch64.sh
 ```
 
