@@ -6,7 +6,7 @@ sudo sh Archiconda3-0.2.3-Linux-aarch64.sh
 rm -rf Archiconda3-0.2.3-Linux-aarch64.sh
 cd ~
 sudo chown -R $USER archiconda3/
-export PATH=~/archiconda3/bin:$PATH
+export "PATH=/bin:/usr/bin:$PATH" >> ~/.bashrc 
 conda config --add channels conda-forge
 conda -V
 echo -e " ->  Congratuallations! Archiconda has been installed successfully!"
