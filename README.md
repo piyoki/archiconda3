@@ -21,6 +21,17 @@ ig:  export PATH=~/archiconda3/bin:$PATH
 #### Check the version, if conda is successfully installed, you will see the version info on the terminal.
 $ conda -V
 
+### To update to the latest version
+$ conda update conda
+$ conda -V
+
+### To prevent conda from activating the base environment by default
+
+$ conda config --set auto_activate_base false
+$ export "PATH=/bin:/usr/bin:$PATH" >> ~/.bashrc
+$ source ~/.bashrc
+$ which python3
+
 ## How To Use
 
 ### Create/Delete an environment
