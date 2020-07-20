@@ -22,15 +22,19 @@ ig:  export PATH=~/archiconda3/bin:$PATH
 $ conda -V
 
 ### To update to the latest version
+```bash
 $ conda update conda
 $ conda -V
+```
 
 ### To prevent conda from activating the base environment by default
 
+```bash
 $ conda config --set auto_activate_base false
 $ export "PATH=/bin:/usr/bin:$PATH" >> ~/.bashrc
 $ source ~/.bashrc
 $ which python3
+```
 
 ## How To Use
 
